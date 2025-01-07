@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="new-task-container">
+      <input 
+        type="text"
+        class="new-task-title"
+        placeholder="Título da Tarefa..."
+      />
+      <textarea 
+        class="new-task-description"
+        placeholder="Descrição da Tarefa..."
+      ></textarea>
+      <button class="new-task-button">Adicionar Tarefa</button>
+      <div class="error-message" style="color: red; display: none;"></div> <!-- Mensagem de erro -->
+    </div>
+    <div class="tasks-container"></div>
+  </div>
+  <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
+
