@@ -5,23 +5,32 @@ O ListaDeTarefas é um aplicativo que auxilia o usuário, controlar uma lista de
 <!-- You can add more screenshots here if you like -->
 <img src="/imagens/imagem01.png" width="260">&emsp;<img src="/imagens/imagem02.png" width="260">&emsp;<img src="/imagens/imagem03.png" width="260">&emsp;<img src="/imagens/imagem04.png" width="260">&emsp;<img src="/imagens/imagem05.png" width="260">&emsp;<img src="/imagens/imagem06.png" width="260">&emsp;<img src="/imagens/imagem07.png" width="260">&emsp;<img src="/imagens/imagem08.png" width="260">&emsp;<img src="/imagens/imagem09.png" width="260">&emsp;
 ## Tecnologias
-* Kotlin
-* Activity para host de telas
-* ViewGroup
-    * ConstraintLayout
-- Components de UI
-    - ImageView
-    - CheckBox
-    - TextView
-    - EditText
+* HTML
+* JavaScript
+* CSS
+* localStorage
+* Components de UI
+    - container
     - Button
-- Toast para display de mensagens
-- Intent Explicita para abrir a segunda Activity
-- FindViewById para recuperar components de UI
-- String resource para concatenação de textos
+    - background
+    - background-colo
+    - margin
+    - padding
+    - height
+    - width
+    - display
+    - text-alig
+    - font-size
+    - color
+    - position
+    - flex-direction
+    -  gap
+    -  box-shad
+    -  border-color
+    -  border-radius
 
   ### TODO
-- Melhorar estilização do app e implementar mais funções
+- Futuras implementações: Melhorar estilização do aplicativo e implementar mais funções.
 
 ## Author
 Ediberto Mariano da Silva (follow me on [Linkedin] (https://www.linkedin.com/in/ediberto-mariano-da-silva-238071118/))
