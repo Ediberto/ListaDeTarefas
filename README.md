@@ -1,5 +1,5 @@
 # ListaDeTarefas
-O ListaDeTarefas é um aplicativo que auxilia o usuário, controlar uma lista de tarefas a ser acompanhada no momento em que necessitá de realizar algo, e que nada pode cair no esquecimento, para que este usuário não tenha preocupações futuras. Este aplicativo tem a possibilidade de ser cadastradas várias listas de tarefas, onde o usuários, poderá registrar o status de cada tarefa como (Pendente, Andamento e Concluída). Os dados referentes às tarefas serão gravadas no LocalStorage, , permitindo o armazenamento dos mesmos no navegador do usuário. Esse foi um projeto desenvolvido como parte do processo seletivo para Desenvolvedor na Empresa SOFTPAR.
+O ListaDeTarefas é um aplicativo que auxilia o usuário, controlar uma lista de tarefas a ser acompanhada no momento em que for preciso de realizar algo, e que nada pode cair no esquecimento, para que este usuário não tenha preocupações futuras. Este aplicativo oferece recursos para registros de várias listas de tarefas, onde os usuários, poderão registrar o status de cada tarefa como (Pendente, Andamento e Concluída). Os dados referentes às tarefas serão gravadas no LocalStorage, permitindo o armazenamento dos mesmos no navegador do próprio usuário. Esse foi um projeto desenvolvido como parte do processo seletivo para Desenvolvedor na Empresa SOFTPAR.
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
@@ -24,10 +24,10 @@ O ListaDeTarefas é um aplicativo que auxilia o usuário, controlar uma lista de
     - color
     - position
     - flex-direction
-    -  gap
-    -  box-shad
-    -  border-color
-    -  border-radius
+    - gap
+    - box-shad
+    - border-color
+    - border-radius
 
   ### TODO
 - Futuras implementações: Melhorar estilização do aplicativo e implementar mais funções.
