@@ -34,7 +34,7 @@ O ListaDeTarefas é um aplicativo que auxilia o usuário, controlar uma lista de
 - Futuras implementações: Melhorar estilização do aplicativo e implementar mais funções.
 
 ## Author
-Ediberto Mariano da Silva (follow me on [Linkedin] (https://www.linkedin.com/in/ediberto-mariano-da-silva-238071118/))
+Ediberto Mariano da Silva (follow me on [Linkedin] (https://www.linkedin.com/in/ediberto-mariano-da-silva-238071118/)
 
 ## License
 ```
