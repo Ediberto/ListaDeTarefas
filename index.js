@@ -75,12 +75,28 @@ const updateLocalStorage = () => {
 
 // Função para adicionar uma nova tarefa
 const handleAddTask = () => {
+<<<<<<< HEAD
   if (!validateInput()) {
+=======
+  const taskTitle = inputTitleElement.value.trim();
+  const taskDescription = inputDescriptionElement.value.trim();
+
+  // Verificar se já existe uma tarefa com o mesmo título
+  if (checkIfTaskExists(taskTitle)) {
+    errorMessageElement.innerText = "Já existe uma tarefa com este título!";
+    errorMessageElement.style.display = "block";
+    return;
+  }
+  
+  // Verificação de campos vazios
+  if (!taskTitle || !taskDescription) {
+>>>>>>> b9c229e846a52aa62de2fcf04ecad8609e79d663
     errorMessageElement.innerText = "Preencha todos os campos!";
     errorMessageElement.style.display = "block";
     return;
   }
 
+<<<<<<< HEAD
   const taskTitle = inputTitleElement.value.trim();
   const taskDescription = inputDescriptionElement.value.trim();
 
@@ -90,6 +106,9 @@ const handleAddTask = () => {
     return;
   }
 
+=======
+   // Se tudo estiver OK, cria a nova tarefa
+>>>>>>> b9c229e846a52aa62de2fcf04ecad8609e79d663
   const newTask = {
     title: taskTitle,
     description: taskDescription,
@@ -97,10 +116,18 @@ const handleAddTask = () => {
     status: "Pendente"
   };
 
+<<<<<<< HEAD
   tasks.push(newTask);
   updateLocalStorage();
   createTaskElement(newTask);
 
+=======
+  tasks.push(newTask); // Adiciona a tarefa ao array
+  updateLocalStorage(); // Atualiza o localStorage
+  createTaskElement(newTask); // Exibe a tarefa na tela
+
+  // Limpa os campos de entrada e esconde a mensagem de erro
+>>>>>>> b9c229e846a52aa62de2fcf04ecad8609e79d663
   inputTitleElement.value = '';
   inputDescriptionElement.value = '';
   errorMessageElement.style.display = "none";
@@ -189,4 +216,10 @@ const initializeApp = () => {
 };
 
 // Inicializa o aplicativo
+<<<<<<< HEAD
 initializeApp();
+=======
+initializeApp();
+
+
+>>>>>>> b9c229e846a52aa62de2fcf04ecad8609e79d663

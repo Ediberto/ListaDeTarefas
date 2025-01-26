@@ -16,11 +16,19 @@ body {
 .page-title {
     width: 100%;
     text-align: center;
+<<<<<<< HEAD
     margin-bottom: 0px;
 }
 
 .page-title h1 {
     font-size: 1.5rem;
+=======
+    margin-bottom: 0px; 
+}
+
+.page-title h1 {
+    font-size: 1.5rem; 
+>>>>>>> b9c229e846a52aa62de2fcf04ecad8609e79d663
     font-weight: bold;
     color: #333;
     margin-top: 0px;
@@ -31,6 +39,7 @@ body {
     padding: 40px 40px;
     width: 35%;
     min-width: 800px;
+<<<<<<< HEAD
     position: fixed;
     top: 10px;
     left: 50%;
@@ -39,6 +48,16 @@ body {
     z-index: 100;
     overflow: hidden;
     max-height: 98vh;
+=======
+    position: fixed; 
+    top: 10px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    background-color: rgb(166, 169, 164); 
+    z-index: 100; 
+    overflow: hidden; 
+    max-height: 98vh; 
+>>>>>>> b9c229e846a52aa62de2fcf04ecad8609e79d663
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -46,6 +65,7 @@ body {
 .button-container {
     display: flex;
     align-self: center;
+<<<<<<< HEAD
     gap: 10px;
 }
 .new-task-container {
@@ -184,6 +204,9 @@ body {
     display: flex;
     align-self: center;
     gap: 10px; /* Espaçamento entre os botões */
+=======
+    gap: 10px; 
+>>>>>>> b9c229e846a52aa62de2fcf04ecad8609e79d663
 }
 .new-task-container {
     background-color: #fff;
@@ -217,6 +240,7 @@ body {
 .new-task-button {
     border-radius: 5px;
     font-weight: 500;
+<<<<<<< HEAD
     height: 35px; /* Reduzir a altura do botão */
     font-size: 0.9rem; /* Diminuir o tamanho da fonte */
     border: none;
@@ -225,6 +249,16 @@ body {
     padding: 8px 20px; /* Ajustar o preenchimento para diminuir a largura do botão */
     cursor: pointer;
     align-self: center; /* Centraliza horizontalmente dentro do container */
+=======
+    height: 35px; 
+    font-size: 0.9rem; 
+    border: none;
+    background-color: #4c573d;
+    color: #fff;
+    padding: 8px 20px; 
+    cursor: pointer;
+    align-self: center; 
+>>>>>>> b9c229e846a52aa62de2fcf04ecad8609e79d663
 }
 
 .task-list-title {
@@ -233,7 +267,11 @@ body {
     text-align: center;
     margin-top: 5px 0;
     margin-bottom: 0px;
+<<<<<<< HEAD
     color: #333; /* Cor do título */
+=======
+    color: #333; 
+>>>>>>> b9c229e846a52aa62de2fcf04ecad8609e79d663
 }
 
 .tasks-container {
@@ -243,8 +281,13 @@ body {
     border-radius: 10px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     width: 100%;
+<<<<<<< HEAD
     height: 50vh; /* Aumenta a altura da área das tarefas para 80% da altura da tela */
     overflow-y: auto; /* Permite rolar quando houver muitas tarefas */
+=======
+    height: 50vh; 
+    overflow-y: auto; 
+>>>>>>> b9c229e846a52aa62de2fcf04ecad8609e79d663
 }
 
 .task-item {
@@ -307,6 +350,7 @@ button {
     border: none;
     margin-left: 10px;
 }
+<<<<<<< HEAD
 /* Botão excluir */
 .task-item i {
     background-color: #318e56;
@@ -320,22 +364,35 @@ button {
     background-color: #4c573d;
 }
 /* Botão Em Andamento */
+=======
+
+>>>>>>> b9c229e846a52aa62de2fcf04ecad8609e79d663
 .in-progress-button {
     background-color: #318e56;
     color: white;
 }
 
 .in-progress-button:hover {
+<<<<<<< HEAD
     background-color: #4c573d;
 }
 /* Botão Concluida */
+=======
+    background-color: #38a070;
+}
+
+>>>>>>> b9c229e846a52aa62de2fcf04ecad8609e79d663
 .completed-button {
     background-color: #318e56;
     color: white;
 }
 
 .completed-button:hover {
+<<<<<<< HEAD
     background-color: #4c573d;;
+=======
+    background-color: #e67e22;
+>>>>>>> b9c229e846a52aa62de2fcf04ecad8609e79d663
 }
 
 .task-actions {
@@ -343,4 +400,8 @@ button {
     justify-content: center;
     gap: 10px;
     margin-top: 10px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b9c229e846a52aa62de2fcf04ecad8609e79d663
