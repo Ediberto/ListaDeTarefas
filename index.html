@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="page-title">
+      <h1>LISTA DE TAREFAS</h1>
+    </div>
+    <div class="new-task-container">
+      <input
+        type="text"
+        class="new-task-title"
+        placeholder="Título da Tarefa..."
+      />
+      <textarea
+        class="new-task-description"
+        placeholder="Descrição da Tarefa..."
+      ></textarea>
+      <div class="button-container">
+        <button class="new-task-button" id="add-task-button">Adicionar</button>
+        <button class="new-task-button" id="pesquisa-task-button">Pesquisar</button>
+        <button class="new-task-button" id="update-task-button">Atualizar</button>
+      </div>
+      <div class="error-message" style="color: red; display: none"></div>
+    </div>
+
+    <h1 class="task-list-title">Lista de Tarefas</h1>
+
+    <div class="tasks-container"></div>
+  </div>
+  <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
